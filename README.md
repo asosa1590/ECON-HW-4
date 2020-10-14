@@ -108,6 +108,14 @@ F Statistic         2,289.331*** (df = 11; 163146)
 Note:                  *p<0.1; **p<0.05; ***p<0.01
 
 `````
+Linear Regression Plot without Y Limitations (please see attached) 
+
+The Linear Regression Plot is highly skewed to the bottom portion of the graph , the reason for this is because we have not created a Y Limitation in our code.
+
+````
+
+
+
 
 
 
