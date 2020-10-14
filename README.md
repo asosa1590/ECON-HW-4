@@ -122,6 +122,9 @@ The Linear Regression Plot with Y Limitations shows income values relative to ag
 > to_be_predicted2 <- data.frame(AGE = 25:55, female = 1, AfAm = 0, Asian = 0, Amindian = 1, race_oth = 1, Hispanic = 1, educ_hs = 0, educ_somecoll = 0, educ_college = 1, educ_advdeg = 0)
 
 ````
+Linear Regression Plot with Income and Age- Please see attached 
+
+Our Linear Regression Line shows a slightly negative sloping line hovering at around 49,000 at age 25 and decreasing to 45,000 dollars per year at around 55 years age . The ACS 2017 data looks at respondents from the entire new york state, which was surprising to find out that the median average income of 25 year olds in the data set was less than the national average which is 50,000. I believe that the population of respondents in the ACS dataset has skewed our regression to a lower income. It seems a typical respondent who answers the Census is probably somone who is older and as a result might be retired and making less than the national average. 
 
 
 
