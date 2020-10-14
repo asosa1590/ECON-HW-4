@@ -112,9 +112,16 @@ Linear Regression Plot without Y Limitations (please see attached)
 
 The Linear Regression Plot is highly skewed to the bottom portion of the graph , the reason for this is because we have not created a Y Limitation in our code.
 
+Linear Regression Plot with Y Limitations (please see attached) 
+
+The Linear Regression Plot with Y Limitations shows income values relative to age evenly spaced out. 
+
 ````
 
+> plot(INCWAGE ~ jitter(AGE, factor = 2), pch = 16, col = rgb(0.5, 0.5, 0.5, alpha = 0.2), ylim = c(0,150000), data = dat_graph)
+> to_be_predicted2 <- data.frame(AGE = 25:55, female = 1, AfAm = 0, Asian = 0, Amindian = 1, race_oth = 1, Hispanic = 1, educ_hs = 0, educ_somecoll = 0, educ_college = 1, educ_advdeg = 0)
 
+````
 
 
 
