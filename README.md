@@ -49,6 +49,9 @@ F-statistic:  2289 on 11 and 163146 DF,  p-value: < 2.2e-16
 + )
 
 `````
+
+Please see attached Linear Regression Plot
+
 Stargazer Model
 ````
 > require(stargazer)
