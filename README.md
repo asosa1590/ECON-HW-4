@@ -128,7 +128,7 @@ Our Linear Regression Line shows a slightly negative sloping line hovering at ar
 
 Homework 4:
 
-For our Homwork we wanted to address the effects of gentrication in lower income neighborhoods particulary in NYCHA and then compare the data from the ACS 2017 values to see if their were any potential correlations. We referred to the article "Linking Residents to Opportuntity, Gentrification In Housing" by Samuel Dastrup and Ingrid Gould Ellen. 
+For our Homwork we wanted to address the effects of gentrification in lower income neighborhoods particulary in NYCHA and then compare the data from the ACS 2017 values to see if their were any potential correlations. We referred to the article "Linking Residents to Opportuntity, Gentrification In Housing" by Samuel Dastrup and Ingrid Gould Ellen. 
 
 In the article the author created a data set defining housing income in NYCHA communities as low, increasing and high.
 Low was defined as 19,500
