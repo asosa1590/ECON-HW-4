@@ -202,6 +202,9 @@ Please note that since the Census Data that we are using does not have "Years Li
 
 [JSTOR Article](https://www-jstor-org.ccny-proxy1.libr.ccny.cuny.edu/stable/pdf/26328274.pdf?ab_segments=0%252Fbasic_search_SYC-5462%252Ftest&refreqid=excelsior%3A3df675c39d7997c6fdfbf151b566c4d5)
 
+MLA Citation:
+Dastrup, Samuel, and Ingrid Gould Ellen. “Linking Residents to Opportunity: Gentrification and Public Housing.” Cityscape, vol. 18, no. 3, 2016, pp. 87–108. JSTOR, www.jstor.org/stable/26328274. Accessed 15 Oct. 2020.
+
 Page 16 
 
 ````
