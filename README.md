@@ -194,8 +194,8 @@ F-statistic:  1941 on 12 and 185942 DF,  p-value: < 2.2e-16
 ````
 To Keep in line with the orginal data set we used Household Income and added Family Size to the data set. 
 
-![Test Image 4](https://www-jstor-org.ccny-proxy1.libr.ccny.cuny.edu/stable/pdf/26328274.pdf?ab_segments=0%252Fbasic_search_SYC-5462%252Ftest&refreqid=excelsior%3A3df675c39d7997c6fdfbf151b566c4d5.png)
 
+[GitHub](https://www-jstor-org.ccny-proxy1.libr.ccny.cuny.edu/stable/pdf/26328274.pdf?ab_segments=0%252Fbasic_search_SYC-5462%252Ftest&refreqid=excelsior%3A3df675c39d7997c6fdfbf151b566c4d5)
 
 
 
