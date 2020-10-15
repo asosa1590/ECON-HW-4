@@ -205,5 +205,62 @@ Please note that since the Census Data that we are using does not have "Years Li
 Page 16 
 
 ````
+Our StarGzaer Model adding Family Size and Income Constraints to replicate the JSTOR Linear Regression Model found on Page 16
 
 
+> stargazer(model_temp1, type = "text")
+
+==================================================
+                         Dependent variable:      
+                    ------------------------------
+                               HHINCOME           
+--------------------------------------------------
+AGE                          -222.175***          
+                               (15.423)           
+                                                  
+female                      -8,388.401***         
+                              (568.720)           
+                                                  
+AfAm                        -28,547.110***        
+                              (892.600)           
+                                                  
+Asian                       -7,226.228***         
+                             (1,141.967)          
+                                                  
+Amindian                    -30,117.990***        
+                             (4,597.925)          
+                                                  
+race_oth                    -10,928.950***        
+                             (1,018.758)          
+                                                  
+Hispanic                    -24,032.030***        
+                              (935.990)           
+                                                  
+educ_hs                        -782.099           
+                              (900.215)           
+                                                  
+educ_somecoll               13,089.000***         
+                              (966.549)           
+                                                  
+educ_college                61,426.070***         
+                              (975.842)           
+                                                  
+educ_advdeg                 100,207.000***        
+                             (1,083.364)          
+                                                  
+FAMSIZE                     13,955.760***         
+                              (179.865)           
+                                                  
+Constant                    68,225.210***         
+                             (1,114.900)          
+                                                  
+--------------------------------------------------
+Observations                   185,955            
+R2                              0.111             
+Adjusted R2                     0.111             
+Residual Std. Error   122,240.000 (df = 185942)   
+F Statistic         1,940.914*** (df = 12; 185942)
+==================================================
+Note:                  *p<0.1; **p<0.05; ***p<0.01
+
+`````
