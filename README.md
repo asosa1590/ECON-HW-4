@@ -5,7 +5,7 @@ Lab 4
 > load("/cloud/project/acs2017_ny_data.RData")
 > attach(acs2017_ny)
 
-> model_temp1 <- lm(INCWAGE ~ AGE + female + AfAm + Asian + Amindian + race_oth + Hispanic + educ_hs + educ_somecoll + educ_college + educ_advdeg)
+> model_temp1 <- lm(INCWAGE ~ su)
 
 > model_temp1 <- lm(INCWAGE ~ AGE + female + AfAm + Asian + Amindian + race_oth + Hispanic + educ_hs + educ_somecoll + educ_college + educ_advdeg)
 > delete(odel_temp1)
@@ -125,6 +125,19 @@ The Linear Regression Plot with Y Limitations shows income values relative to ag
 Linear Regression Plot with Income and Age- Please see attached 
 
 Our Linear Regression Line shows a slightly negative sloping line hovering at around 49,000 at age 25 and decreasing to 45,000 dollars per year at around 55 years age . The ACS 2017 data looks at respondents from the entire new york state, which was surprising to find out that the median average income of 25 year olds in the data set was less than the national average which is 50,000. I believe that the population of respondents in the ACS dataset has skewed our regression to a lower income. It seems a typical respondent who answers the Census is probably somone who is older and as a result might be retired and making less than the national average. 
+
+Homework 4:
+
+For our Homwork we wanted to address the effects of gentrication in lower income neighborhoods particulary in NYCHA and then compare the data from the ACS 2017 values to see if their were any potential correlations. We referred to the article "Linking Residents to Opportuntity, Gentrification In Housing" by Samuel Dastrup and Ingrid Gould Ellen. 
+
+In the article the author created a data set defining housing income in NYCHA communities as low, increasing and high.
+Low was defined as 19,500
+Increasing was defined as 20,698
+High was defined as 21,648
+
+`````
+
+
 
 
 
