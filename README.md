@@ -264,4 +264,24 @@ F Statistic         1,940.914*** (df = 12; 185942)
 Note:                  *p<0.1; **p<0.05; ***p<0.01
 
 `````
+Code for Graphing Regression Lines for Women and Men taking into account family size, education and ethincity.
+
+````
+
+
+(Code for Female Linear Regression Model)
+
+> to_be_predicted2 <- data.frame(AGE = 25:55, female = 1, AfAm = 1, Asian = 1, Amindian = 1, race_oth = 1, Hispanic = 1, educ_hs = 0, educ_somecoll = 0, educ_college = 1, educ_advdeg = 0, FAMSIZE = 3)
+> to_be_predicted2$yhat <- predict(model_temp1, newdata = to_be_predicted2)
+> lines(yhat ~ AGE, data = to_be_predicted2
+
+
+(Code for Male Linear Regression Model)
+
+> to_be_predicted2 <- data.frame(AGE = 25:55, female = 0, AfAm = 1, Asian = 1, Amindian = 1, race_oth = 1, Hispanic = 1, educ_hs = 0, educ_somecoll = 0, educ_college = 1, educ_advdeg = 0, FAMSIZE = 3)
+> > to_be_predicted2$yhat <- predict(model_temp1, newdata = to_be_predicted2)
+
+````
+
+
 After Creating both regression plots for Men and Women at the 0-30,000 dollar range we discovered that the the regression were proptionally higher  for Women Compared to Men. The range from 20,000 - 30,0000 dollars had a higher population density for female respondents compared to male respondents. Another intresting find was that at the 15,000 dollar income level for men was higher in population density compared to women. When looking at our data relative to the JSTOR regression model more participants in NYCHA housing had an overall salary of about 19,000 a year in our model more respondents had higher incomes of 25,000 to 30,000 thousand dollars a year for a Family size greater than 3.  We can conclude from the ACS data set that many of our participants who are at the 0 to 30,000 income range come from all areas of new york state. Breaking down the data further it seems that the population density at 20,000 to 30,000 dollar income is more densely populated with women rather than men. Also the ACS data would not be a good resource to look at housing characteristics in NYCHA communities.
