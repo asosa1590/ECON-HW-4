@@ -137,7 +137,64 @@ High was defined as 21,648
 
 `````
 
+> load("/cloud/project/acs2017_ny_data.RData")
+> attach(acs2017_ny)
+> View(acs2017_ny)
+> model_temp1 <- lm(HHINCOME ~ AGE + female + AfAm + Asian + Amindian + race_oth + Hispanic + educ_hs + educ_somecoll + educ_college + educ_advdeg + FAMSIZE  )
+> summary(model_temp1)
 
+Call:
+lm(formula = HHINCOME ~ AGE + female + AfAm + Asian + Amindian + 
+    race_oth + Hispanic + educ_hs + educ_somecoll + educ_college + 
+    educ_advdeg + FAMSIZE)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-297507  -59946  -24950   22929 1909729 
+
+Coefficients:
+               Estimate Std. Error
+(Intercept)    68225.21    1114.90
+AGE             -222.17      15.42
+female         -8388.40     568.72
+AfAm          -28547.11     892.60
+Asian          -7226.23    1141.97
+Amindian      -30117.99    4597.93
+race_oth      -10928.95    1018.76
+Hispanic      -24032.02     935.99
+educ_hs         -782.10     900.21
+educ_somecoll  13089.01     966.55
+educ_college   61426.07     975.84
+educ_advdeg   100206.97    1083.36
+FAMSIZE        13955.76     179.87
+              t value Pr(>|t|)    
+(Intercept)    61.194  < 2e-16 ***
+AGE           -14.406  < 2e-16 ***
+female        -14.750  < 2e-16 ***
+AfAm          -31.982  < 2e-16 ***
+Asian          -6.328 2.49e-10 ***
+Amindian       -6.550 5.76e-11 ***
+race_oth      -10.728  < 2e-16 ***
+Hispanic      -25.676  < 2e-16 ***
+educ_hs        -0.869    0.385    
+educ_somecoll  13.542  < 2e-16 ***
+educ_college   62.947  < 2e-16 ***
+educ_advdeg    92.496  < 2e-16 ***
+FAMSIZE        77.590  < 2e-16 ***
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+Residual standard error: 122200 on 185942 degrees of freedom
+  (10630 observations deleted due to missingness)
+Multiple R-squared:  0.1113,	Adjusted R-squared:  0.1113 
+F-statistic:  1941 on 12 and 185942 DF,  p-value: < 2.2e-16
+
+````
+To Keep in line with the orginal data set we used Household Income and added Family Size to the data set. 
+
+![Test Image 4](https://www-jstor-org.ccny-proxy1.libr.ccny.cuny.edu/stable/pdf/26328274.pdf?ab_segments=0%252Fbasic_search_SYC-5462%252Ftest&refreqid=excelsior%3A3df675c39d7997c6fdfbf151b566c4d5.png)
 
 
 
