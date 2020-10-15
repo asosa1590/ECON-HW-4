@@ -268,6 +268,15 @@ Code for Graphing Regression Lines for Women and Men taking into account family 
 
 ````
 
+> attach(acs2017_ny)
+> Respondents <- length(HHINCOME)
+> set.seed(12345)
+> graph_obs <- (runif(Respondents) < 0.1)
+> dat_graph <- subset(dat_use, graph_obs)
+> use_varb <- (AGE >= 25) & (AGE <= 55) & (LABFORCE == 2) & (WKSWORK2 > 4) & (UHRSWORK >= 35)
+> dat_use <- subset(acs2017_ny,use_varb)
+> dat_graph <- subset(dat_use,graph_obs)
+> plot(INCWAGE ~ jitter(AGE, factor = 2), pch = 16, col = rgb(0.5, 0.5, 0.5, alpha = 0.2), ylim = c(0,30000), data = dat_graph)
 
 (Code for Female Linear Regression Model)
 
