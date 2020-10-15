@@ -288,7 +288,8 @@ Code for Graphing Regression Lines for Women and Men taking into account family 
 (Code for Male Linear Regression Model)
 
 > to_be_predicted2 <- data.frame(AGE = 25:55, female = 0, AfAm = 1, Asian = 1, Amindian = 1, race_oth = 1, Hispanic = 1, educ_hs = 0, educ_somecoll = 0, educ_college = 1, educ_advdeg = 0, FAMSIZE = 3)
-> > to_be_predicted2$yhat <- predict(model_temp1, newdata = to_be_predicted2)
+> to_be_predicted2$yhat <- predict(model_temp1, newdata = to_be_predicted2)
+> lines(yhat ~ AGE, data = to_be_predicted2
 
 ````
 
